@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app
 
 # Expose any port if needed, e.g., 8000
-# EXPOSE 8000
+EXPOSE 6000
 
 # Optionally set the connection string at run time:
 #   docker run -e POSTGRES_CONNECTION_STRING="postgresql://user:pass@host:5432/db" mcp-postgres
